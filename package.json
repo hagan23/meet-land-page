@@ -1,0 +1,12 @@
+{
+  "name": "meet-landing-page",
+  "version": "1.0.0",
+  "description": "This is my amalitech project called \"Meet landing page\" (Mobile and Desktop version) built using HTML and CSS only.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

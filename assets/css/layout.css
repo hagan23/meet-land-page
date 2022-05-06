@@ -1,0 +1,75 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-body:hsl(240, 10%, 57%);
+  --color-accent: hsl(234, 100%, 69%);
+  --color-btn: hsl(192, 66%, 43%);
+  --color-headings: hsl(218, 54%, 20%);
+  --color-paragraphs: hsl(218, 31%, 30%);
+  --white: #fff;
+  --font-family:"Red Hat Display", sans-serif;
+  --btn-hover-color: hsl(192, 90%, 77%);
+  --black: hsl(240, 21%, 20%);
+
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family:var(--font-family);
+  color: var(--color-body);
+  line-height: 26px;
+  min-height: 100vw;
+  width: 100%;
+}
+
+.site-container {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.pictures-main {
+  display: flex;
+  grid-template-columns: 1ft repeat(auto-fit, minmax(150px, 1fr));
+  width: 30%;
+  margin: 0 auto;
+  gap: 2em;
+  justify-items: center;
+  max-width: 500px;
+  margin-bottom: 3em;
+  justify-content: center;
+}
+
+.body-main {
+  margin: 0 auto;
+  max-width: 560px;
+  width: 90%;
+  margin-bottom: 10em;
+}
+
+footer {
+  background-color: #4d96a9;
+  text-align: center;
+  color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
